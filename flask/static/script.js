@@ -1,8 +1,4 @@
-const main = () => {
-    alert('script loaded');
-}
-
-main();
+console.log('loaded');
 
 const dbConfig = {
     collection: 'raspberry_collection',
@@ -68,4 +64,4 @@ const app = {
     }
 }
 
-app.init(); 
+app.init();
